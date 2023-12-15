@@ -843,9 +843,12 @@ display: block;
 
 @media screen and (min-width: 768px) {
 
-
+  .review {
+    position: relative;
+    overflow: hidden;
+  }
   .overlay {
-    position: absolute;
+       position: absolute;
     top: 0;
     left: 0;
     width: 100%;
